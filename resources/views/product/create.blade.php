@@ -43,8 +43,7 @@
               <label for="warranty">Warranty (in months)</label>
               <input type="number" id="warranty" class="form-control mb-2" placeholder="Enter warranty period" name="warranty" value="{{ old('warranty') }}" />
             </div>
-            <input type="submit" class="btn btn-primary" value="Save" />
-          </form>
+            <input type="submit" class="btn" value="Save" style="background-color: #310e47; color: #fff;" />
         </div>
       </div>
     </div>
