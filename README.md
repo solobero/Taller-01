@@ -16,7 +16,7 @@
 
 4. **Configurar XAMPP:**  
    Inicia XAMPP y asegúrate de hacer "START" en Apache y MySQL. Luego ve a:  
-   [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) y crea una base de datos llamada `taller01`. (Puedes cambiar el nombre, pero asegúrate de usar ese mismo nombre en el siguiente paso).
+   [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) y crea una base de datos llamada `talleruno`. (Puedes cambiar el nombre, pero asegúrate de usar ese mismo nombre en el siguiente paso).
 
 5. **Configurar las variables de entorno:**  
    Edita el archivo `.env` y asegúrate de descomentar y configurar las siguientes líneas:
@@ -25,7 +25,7 @@
    DB_CONNECTION=mysql  
    DB_HOST=127.0.0.1  
    DB_PORT=3306      # Si tienes un puerto distinto, asegúrate de cambiarlo.  
-   DB_DATABASE=taller01  
+   DB_DATABASE=talleruno  
    DB_USERNAME=tu_usuario  # Por defecto es root.  
    DB_PASSWORD=tu_contraseña  # Por defecto este campo es vacío.
 ```
