@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    use HasFactory;
+    //si no uso datos randoms (seeders), no es necesaria esta linea
+    // use HasFactory;
 
     /**
      * PRODUCT ATTRIBUTES
@@ -21,15 +22,16 @@ class Product extends Model
 
     protected $fillable = ['name', 'description', 'image', 'price', 'warranty'];
 
-    public function getId(): int
-    {
-        return $this->attributes['id'];
-    }
+    //esto no va
+    // public function getId(): int
+    // {
+    //     return $this->attributes['id'];
+    // }
 
-    public function setId($id): void
-    {
-        $this->attributes['id'] = $id;
-    }
+    // public function setId($id): void
+    // {
+    //     $this->attributes['id'] = $id;
+    // }
 
     public function getName(): string
     {

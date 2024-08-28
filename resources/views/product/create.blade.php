@@ -36,7 +36,7 @@
               <input type="file" id="image" class="form-control mb-2" name="image" />
             </div>
             <div class="form-group">
-              <label for="price">Price</label>
+              <label for="price">Price (USD)</label>
               <input type="number" id="price" class="form-control mb-2" placeholder="Enter price" name="price" value="{{ old('price') }}" required />
             </div>
             <div class="form-group">
