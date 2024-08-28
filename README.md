@@ -10,12 +10,12 @@
 4. Luego, vamos a darle "start" en xampp, recuerde START en APACHE y MySQL. Nos dirijimos a: http://localhost/phpmyadmin/ y crearemos una base de datos llamada taller01 (es la que usé yo, pero usted puede cambiarle el nombre, tenga en cuenta que tendrá que usar ese mismo en el numeral 5)
 
 5. Luego de tener tu archivo .env, edita el archivo .env y asegúrate de descomentar y configurar las siguientes líneas:
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306 - > Si usted tiene un puerto distinto, asegurese de cambiarlo
-    DB_DATABASE=taller01
-    DB_USERNAME=tu_usuario - > por default es root
-    DB_PASSWORD=tu_contraseña - > por default esto es un campo vacío
+    -DB_CONNECTION=mysql
+    -DB_HOST=127.0.0.1
+    -DB_PORT=3306 - > Si usted tiene un puerto distinto, asegurese de cambiarlo
+    -DB_DATABASE=taller01
+    -DB_USERNAME=tu_usuario - > por default es root
+    -DB_PASSWORD=tu_contraseña - > por default esto es un campo vacío
 
 6. Migrar la base de datos: Ejecuta las migraciones para crear las tablas necesarias en tu base de datos: php artisan migrate
 
